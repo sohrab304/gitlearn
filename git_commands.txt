@@ -1,0 +1,102 @@
+git push https://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@github.com/sohrab304@gmail.com/gitlearn.git
+
+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
+
+  151  git init
+  156  git config --global user.name "sohrab khan"
+  161  git config --global user.email "sohrab.khan@gmail.com"
+  162  git config --global user.email
+  163  git config --global user.name
+  164  git config --global --edit
+ 
+  179  git status
+  180  git add sum.java
+  181  git status
+  182  git commit -m "initial commit"
+  183  git status
+  184  git log
+  185  git commit
+
+  190  git status
+  191  git add diff.java
+  192  git status
+  193  git log
+  194  git commit -m "adding diff.java"
+  195  git log
+
+  198  git status
+  199  git add .
+  200  git status
+
+  202  git status
+  203  git commit -m "file modified 2nd line"
+  204  git status
+  205   echo '3+3+3=9' >> sum.java
+  206  git status
+  207  git add .
+  208  git status
+  209  git commmit -m "3rd line added"
+  210  git commit -m "3rd line added"
+  211  git status
+  212  git log
+
+  214  git checkout e568ee8d3fb41150a56af701ddf71be770357aa2
+
+  219  cat sum.java
+  220  git checkout master
+
+  222  git checkout e568ee8d3fb41150a56af701ddf71be770357aa2
+  223  git branch
+  224  git checkout master
+
+  226  git branch dev
+
+  228  git checkout dev
+  229  git checkout -b sohrab/multiplyfeature
+  230  echo '2*2=4' > multiply.java
+  231  git status
+  232  git add multiply.java
+  233  git commit -m "added multiply.java"
+
+
+  238  git branch
+  239  git checkout dev
+
+  242  git branch
+  243  git merge sohrab/multiplyfeature
+
+  245  git checkout master
+
+  247  git merge dev
+
+  250  touch .gitignore
+  251  touch 'secretkey12134' > secret.txt
+  252  cat secret
+  253  cat secret.txt
+
+  260  git status
+  261  echo '.gitignore' >> .gitignore
+  262  git status
+  263  cat .gitignore
+  264  git remote -v
+  265  git remote add origin https://github.com/sohrab304/gitlearn.git
+  266  git remote -v
+  267  git branch -M main
+  268  git push -u origin main
+  269  git push -u origin main https://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@github.com/sohrab304/gitlearn.git
+  270  git push https://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@github.com/sohrab304@gmail.com/gitlearn.git
+  271  git remote remove origin https://github.com/sohrab304/gitlearn.git
+  272  git remote remove origin
+  273  git remote add origin https://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@github.com/sohrab304@gmail.com/gitlearn.git
+  274  git branch -M main
+  275*
+  276  git remote remove origin
+  277  git remote add origin https://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@github.com/sohrab304/gitlearn.git
+  278  git branch -M main
+  279  git push -u origin main
+  280  git status
+  281  git branch
+  282  git checkout dev
+  283  git push -u origin dev
+  284  git checkout sohrab/multiplyfeature
+  285  git push -u origin sohrab/multiplyfeature
